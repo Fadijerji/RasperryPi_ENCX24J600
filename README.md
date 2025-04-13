@@ -1,4 +1,4 @@
-Rasperry Pi ENCX24J600 driver 
+Raspberry Pi ENCX24J600 driver 
 =====================================
 
 This project implements a simple suite of kernel modules and a device tree
@@ -8,11 +8,11 @@ The driver was made by combining .c .h from the kernel source code
 
 https://github.com/torvalds/linux/tree/v6.14/drivers/net/ethernet/microchip
 
-and a modefied dts file from the linux for raspberrypi
+and a modified dts file from the Linux for raspberry pi
 
 https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/enc28j60-overlay.dts
 
-and a modefied makefile from
+and a modified makefile from
 
 https://github.com/jhol/rpi-raw-i2s-io/blob/master/Makefile
 
@@ -59,12 +59,11 @@ Installation
      $ ls /boot/overlays/encx24*
     ```
     
-    The RPI shoud return:
+    The RPI should return:
     
-        ```
-     $ /boot/overlays/encx24j600-overlay.dtbo
-
-    ```
+     ```
+      $ /boot/overlays/encx24j600-overlay.dtbo
+     ```
 
 4. Enable device tree overlay.
 
