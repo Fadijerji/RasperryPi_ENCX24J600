@@ -25,11 +25,17 @@ Connections
 RPI
 
 3v3 		  >> vcc
+
 GPIO 10 (MOSI)    >> SI
+
 GPIO 9 (MISO)     >> SO
+
 GPIO 11 (SCLK)    >> CLK
+
 GPIO 25 (INT)     >> INT
+
 GPIO 8 (CS)       >> CS
+
 GND 	          >> GND
 
 Installation
